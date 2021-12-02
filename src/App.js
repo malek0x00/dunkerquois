@@ -18,15 +18,6 @@ function App() {
           <div/>
           </Route>
 
-<<<<<<< HEAD
-          <Route exact path="*">
-          error
-=======
-          <Route exact path="">
-          <div/>
->>>>>>> 85e8bae127d1dc7a3d6ff5eb38043b4ca0cd0e73
-          </Route>
-
           <Route exact path="*">
           <NotFound/>
           </Route>
