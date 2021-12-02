@@ -3,6 +3,7 @@ import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Homepage from './pages/homepage';
 import NotFound from './pages/notFound'
+import Login from './pages/login';
 
 function App() {
   return (
@@ -16,6 +17,11 @@ function App() {
 
           <Route exact path="/1">
           <div/>
+          </Route>
+
+
+          <Route exact path="/login">
+          <Login/>
           </Route>
 
           <Route exact path="*">
