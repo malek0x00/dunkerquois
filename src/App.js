@@ -19,7 +19,7 @@ function App() {
           </Route>
 
           <Route exact path="*">
-          <div/>
+          error
           </Route>
 
           
