@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Homepage from './pages/homepage';
+import NotFound from './pages/notFound'
 
 function App() {
   return (
@@ -18,9 +18,20 @@ function App() {
           <div/>
           </Route>
 
+<<<<<<< HEAD
           <Route exact path="*">
           error
+=======
+          <Route exact path="">
+          <div/>
+>>>>>>> 85e8bae127d1dc7a3d6ff5eb38043b4ca0cd0e73
           </Route>
+
+          <Route exact path="*">
+          <NotFound/>
+          </Route>
+
+         
 
           
           
