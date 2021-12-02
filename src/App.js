@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import Homepage from './pages/homepage';
 
 function App() {
   return (
@@ -10,18 +11,10 @@ function App() {
         <Switch>
 
         <Route exact path="/">
-            aaaa
+            <Homepage/>
           </Route>
 
-          <Route exact path="/loginNavigation">
-          <div/>
-          </Route>
-
-          <Route exact path="/login">
-          <div/>
-          </Route>
-
-          <Route exact path="/signup">
+          <Route exact path="/1">
           <div/>
           </Route>
 
