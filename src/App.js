@@ -5,6 +5,7 @@ import Homepage from './pages/homepage';
 import NotFound from './pages/notFound'
 import Login from './pages/login';
 import Signup from './pages/signUp';
+import ResultPage from './pages/result';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
 
           <Route exact path="/signup">
           <Signup/>
+
+          <Route exact path="/result">
+          <ResultPage/>
           </Route>
 
           <Route exact path="*">
