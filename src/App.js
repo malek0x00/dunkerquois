@@ -6,6 +6,7 @@ import NotFound from './pages/notFound'
 import Login from './pages/login';
 import Signup from './pages/signUp';
 import ResultPage from './pages/result';
+import Sauvateur from './pages/sauvateur';
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
 
           <Route exact path="/result">
           <ResultPage/>
+          </Route>
+
+          <Route exact path="/sauvateur">
+          <Sauvateur/>
           </Route>
 
           <Route exact path="*">
