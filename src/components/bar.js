@@ -2,6 +2,7 @@ import React, {useRef} from 'react';
 import {Group, TextInput,Button} from '@mantine/core';
 import SearchIcon from '@mui/icons-material/Search';
 import { makeStyles } from '@mui/styles';
+import { shadows } from '@mui/system';
 
 const useStyles = makeStyles({
 
@@ -24,10 +25,10 @@ function NavBar() {
         alert(searchref.current.value);
     }
     return ( 
-        <div style={{backgroundColor:"#00000000", width:'100%',height:'50px', position:'fixed', top:0,left:0,zIndex:9, marginBottom:'60px'}}> 
+        <div style={{backgroundColor:"#FFFFFF", width:'100%',height:'80px', position:'fixed', top:0,left:0,zIndex:9, marginBottom:'60px'}}> 
         <Group grow>
             <div>
-            <TextInput ref={searchref} placeholder="search..." style={{width:'50%', marginTop:'20px', marginLeft:'20px'}} size="lg" radius='xl' rightSection={<Button style={{backgroundColor:'#E5452F', marginLeft:'-45px'}} size='sm' radius='xl' onClick={search}><SearchIcon/></Button>}/>
+            <TextInput ref={searchref} placeholder="search..." style={{width:'100%', marginTop:'20px', marginLeft:'20px'}} size="sm" radius='xl' rightSection={<Button style={{backgroundColor:'#E5452F', marginLeft:'-25px'}} size="xs" radius='xl' onClick={search}><SearchIcon/></Button>}/>
             
             </div>
             <div style={{display:'flex', justifyContent:'right'}}>
