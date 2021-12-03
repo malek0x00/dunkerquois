@@ -4,6 +4,7 @@ import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Homepage from './pages/homepage';
 import NotFound from './pages/notFound'
 import Login from './pages/login';
+import Signup from './pages/signUp';
 import ResultPage from './pages/result';
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           <Route exact path="/login">
           <Login/>
           </Route>
+
+          <Route exact path="/signup">
+          <Signup/>
 
           <Route exact path="/result">
           <ResultPage/>
