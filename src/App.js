@@ -28,6 +28,7 @@ function App() {
 
           <Route exact path="/signup">
           <Signup/>
+          </Route>
 
           <Route exact path="/result">
           <ResultPage/>
