@@ -6,6 +6,7 @@ import NotFound from './pages/notFound'
 import Login from './pages/login';
 import Signup from './pages/signUp';
 import ResultPage from './pages/result';
+import ListeDonnation from './pages/listedonnation';
 import Sauvateur from './pages/sauvateur';
 
 function App() {
@@ -33,6 +34,10 @@ function App() {
 
           <Route exact path="/result">
           <ResultPage/>
+          </Route>
+    
+          <Route exact path="/listedonnation">
+          <ListeDonnation/>
           </Route>
 
           <Route exact path="/sauvateur">
